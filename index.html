@@ -1,1 +1,65 @@
-33333
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>澳门上葡京赌场 - 线路检测</title>
+<meta name="keywords" content="上葡京,上葡京赌场,上葡京开户,澳门上葡京赌场"/>
+<meta name="description" content="欢迎光临上葡京、亚洲顶级线上娱乐，所提供的产品和服务，是由澳门特别行政区 The Macao Special Administrative Region.授权和监管。选择我们，您将拥有可靠的资金保障和优质的服务，品牌信誉-玩家首选。"/>
+<link rel ="stylesheet" type="text/css" href ="css/default.css" />
+<script type="text/javascript" src="js/jquery18.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="textbox"><img src="images/text.png" /></div>
+	<div class="help">
+		<div>
+			<div class="barcode"><img src="images/weixin.png" /></div>
+			<a target="_blank" href="http://szzero.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=396334&jid=8532108512&skillId=2579&enterurl=http%3A%2F%2F315%2Enet%2F999%2Ehtml&pagetitle=%E4%B8%8A%E8%91%A1%E4%BA%AC&pagereferrer=&firstEnterUrl=http%3A%2F%2F315%2Enet%2F999%2Ehtml&lan=zh&tm=1419257705255" class="online"></a>
+			<a target="_blank" href="http://www.315.net/xiazai/index.html" class="download"></a>
+		</div>
+	</div>
+	<div id="test">
+		<a target="_blank" href="#" class="web01" target="_blank" title="刷新网页重新检测响应时间">
+			<span class="webname"></span>
+			<span>进入：<span class="time">测试中...</span></span>
+		</a>
+		<a target="_blank" href="#" class="web02" target="_blank" title="刷新网页重新检测响应时间">
+			<span class="webname"></span>
+			<span>进入：<span class="time">测试中...</span></span>
+		</a>
+		<a target="_blank" href="#" class="web03" target="_blank" title="刷新网页重新检测响应时间">
+			<span class="webname"></span>
+			<span>进入：<span class="time">测试中...</span></span>
+		</a>
+	</div>
+</div>
+
+<script language="javascript">
+	var mstime = new Array();
+	var autourl=new Array()
+	autourl[0]='http://www.spj10.net';
+	autourl[1]='http://www.spj05.net';
+	autourl[2]='http://www.spj00.net';
+
+	function auto(i){
+		mstime[i] = ((new Date().getTime() - mstime[i])/1000).toFixed(2)+"s";
+		$('#test a').eq(i).find('span.time').html(mstime[i]);
+	}
+	
+	$(function(){
+		$('body').append('<div id=img></div>');
+
+		$('#test a').each(function(i){
+			var $self = $(this);
+			$self.attr('href',autourl[i]);
+			$self.find('span.webname').html(autourl[i].replace('http://',''));
+			$('#img').append('<div></div>');
+			mstime[i] = new Date().getTime();
+			var str = "<img src="+autourl[i]+'/'+Math.random()+" width=1 height=1  onerror=auto("+i+") style='display:none' />";
+			$('#img>div').eq(i).html(str);
+		});
+	});
+
+</script>
+</body>
+</html>

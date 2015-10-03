@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+*{padding:0;margin:0;}
+body {font-family:"寰蒋闆呴粦";font-size:16px;color: #3d3d3d;background: #4b291c url(../images/bg.jpg) no-repeat center top;margin:0;padding:0;}
+.container {position:relative;width:1000px;min-height:650px;overflow:hidden;margin:0 auto;background: url(../images/bg.jpg) no-repeat center top;}
+
+.container .textbox {width:498px;height:167px;position:absolute;top:25px;right:60px;}
+.container .help {width:608px;height:221px;position:absolute;top:185px;right:30px;background: url(../images/weixin_bg.png) no-repeat center center;}
+.container .help>div {width:608px;height:221px;position:relative;}
+.container .help>div .barcode {width:162px;height:162px;position:absolute;top:30px;left:223px;}
+.container .help>div a {display:block;width:124px;height:44px;position:absolute;right:40px;}
+.container .help>div a.online {top:40px;background: url(../images/btn_online.png) no-repeat center center;}
+.container .help>div a.download {top:135px;background: url(../images/btn_download.png) no-repeat center center;}
+.container .help>div a.online:hover {background: url(../images/btn_online_h.png) no-repeat center center;}
+.container .help>div a.download:hover {background: url(../images/btn_download_h.png) no-repeat center center;}
+
+#test {width:630px;height:80px;position:absolute;top:410px;right:0px;padding-bottom:120px;background: url(../images/bg_note.png) no-repeat center bottom;}
+#test a {display:block;width:130px;height:70px;float:left;position:relative;padding:10px 0 0 80px;font-size:14px;color:#df9438;text-decoration:none;}
+#test a.web01 {background: url(../images/icon_site01.jpg) no-repeat left center;}
+#test a.web02 {background: url(../images/icon_site02.jpg) no-repeat left center;}
+#test a.web03 {background: url(../images/icon_site03.jpg) no-repeat left center;}
+#test a.web01:hover {color:#f60;background: url(../images/icon_site01_h.jpg) no-repeat left center;}
+#test a.web02:hover {color:#f60;background: url(../images/icon_site02_h.jpg) no-repeat left center;}
+#test a.web03:hover {color:#f60;background: url(../images/icon_site03_h.jpg) no-repeat left center;}
+#test a span.webname {display:block;width:130px;height:30px;line-height:30px;}
+
+
+.tline input.text {width:120px;height:22px;}
+.tline input.ms {width:50px;height:22px;}

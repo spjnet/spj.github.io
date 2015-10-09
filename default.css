@@ -4,7 +4,7 @@ body {font-family:"寰蒋闆呴粦";font-size:16px;color: #3d3d3d;background:
 .container {position:relative;width:1000px;min-height:650px;overflow:hidden;margin:0 auto;background: url(http://ubmcmms.baidu.com/media/v1/0f000r3xKjnw4NyV1_gh7jx9_WferJ9d.jpg) no-repeat center top;}
 
 .container .textbox {width:498px;height:167px;position:absolute;top:25px;right:60px;}
-.container .help {width:608px;height:221px;position:absolute;top:185px;right:30px;background: url(http://ubmcmms.baidu.com/media/v1/0f000aRbqEfTEHcGdXOb2-kpnYBRiZJT.png) no-repeat center center;}
+.container .help {width:608px;height:221px;position:absolute;top:185px;right:30px;background: url(http://ubmcmms.baidu.com/media/v1/0f000FQCnL2LC5nZg6gD89NhkRxdj4bT.png) no-repeat center center;}
 .container .help>div {width:608px;height:221px;position:relative;}
 .container .help>div .barcode {width:162px;height:162px;position:absolute;top:30px;left:223px;}
 .container .help>div a {display:block;width:124px;height:44px;position:absolute;right:40px;}
